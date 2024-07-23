@@ -118,17 +118,15 @@ Il y a beaucoup de langage de balise ( d'où le "Encore un autre langage de bali
 Et voici quelques langages qui ne sont pas des langages de balisages: 
 
   - CSS
-  - JSON
-  - CSV
   - YAML
   - ... 
 
 ## Quelques éléments de comparaisons entre YAML, JSON, XML et CSV
 
-YAML reprend des concepts du langage de balisage XML. YAML a pour objectif de représenter des données de manières plus complexes que ce que serait capable de faire le format de fichier CSV (qui n'est pas un langage).
-JSON n'est pas un langage, mais il se présente tout de même comme un format de données concurrent au langage YAML.
+YAML reprend des concepts du langage de balisage XML. YAML a pour objectif de représenter des données de manières plus complexes que ce que serait capable de faire le format de fichier CSV, qui n'est pas un langage.
+JSON n'est pas un langage non plus, mais il est a considérer comme un format de données concurrent au langage YAML.
 
-Voici un exemple qui permettra d'illuster la différence de représentation de données entre CSV, XML, JSON et YAML
+Voici un exemple qui permet d'illuster les différences de représentation de données entre CSV, XML, JSON et YAML
 
 En CSV:
 
