@@ -32,7 +32,7 @@ Caractéristiques principales de JSON :
 
 ## Langages vs format de données, peut-on vraiment les comparer ?
 
-]Il n'est pas habituel de comparer un langage avec un format de données puisqu'il s'agit de deux concepts différents. Toutefois, pour certains types de langages et formats de données, cette comparaison peut être pertinente car ils peuvent être utilisés de manière interchangeable dans certains contextes pratiques, par exemple :
+Il n'est pas habituel de comparer un langage avec un format de données puisqu'il s'agit de deux concepts différents. Toutefois, pour certains types de langages et formats de données, cette comparaison peut être pertinente car ils peuvent être utilisés de manière interchangeable dans certains contextes pratiques, par exemple :
 
   - la rédaction de fichiers de configurations
   - la sérialisation de données
@@ -98,11 +98,11 @@ On voit donc que la balise:
 Ici, les balises sont spécifiés par une ouverture et une fermeture de balise.
 Mais ce n'est pas nécéssairement le cas, par exemple, le langage mardown n'utilise pas ce concept de basile ouvrante/fermante et l'exemple ci dessus en markdonw devient:
 
-> ```markdown
-> # Titre de niveau 1
-> 
-> Paragrahe 1 
-> ```
+```markdown
+# Titre de niveau 1
+
+Paragrahe 1 
+```
 
 Dans ce cas, c'est le saut de ligne qui fait office de balise pour un nouveau paragraphe.
 
@@ -122,7 +122,6 @@ Et voici quelques langages qui ne sont pas des langages de balisages:
   - CSV
   - YAML
   - ... 
-
 
 ## Quelques éléments de comparaisons entre YAML, JSON, XML et CSV
 
@@ -216,10 +215,6 @@ En JSON:
 
 ## Tableau récapitulatif de comparaison
 
-CSV est inclus le tableau de comparaison ci dessous, mais il faut garder à l'esprit que CSV n'est pas un langage contrairement à XML, YAML, JSON
-
----
-
 | Critère                     | JSON   | YAML   | XML    | CSV   |
 |-----------------------------|--------|--------|--------|-------|
 | **Lisibilité (déplié)**     | 4/5    | 5/5    | 3/5    | 2/5   |
@@ -231,9 +226,6 @@ CSV est inclus le tableau de comparaison ci dessous, mais il faut garder à l'es
 | **Support des alias**       | Non    | Oui    | Non    | Non   |
 | **Outils de validation**    | Oui    | Oui    | Oui    | Non   |
 
----
-
- 
 ## YAML est il un sur-ensemble de JSON ?
 
 Il est souvent considéré que YAML est un sur-ensemble de JSON. Ou bien que JSON est un sous ensemble du langage YAML, comme vous préférez.
@@ -276,7 +268,8 @@ En yaml:
 
 ```yaml
 ---
-# Voici un commentaire en Yaml
+# Voici un commentaire en Yaml, les --- ci dessus permettent de délimiter plusieurs "documents" dans un seul fichier
+# Généralement, il y a toujours --- en début de fichier même si il n' y a pas besoin de délimiter d'autres "documents" dans le même fichier
 # Notez que les commentaires n'apparaissent pas dans l'équivalent en json ci dessous
 # car il n'y a pas de commentaire en json
 # Les fichiers YAML sont composés de paires clé-valeur 
@@ -445,13 +438,12 @@ flottant: 3.14
 # Fonctionne avec False, false, no, off mais pas avec 0 pour le booléen FAUX
 actif: true
 
-
 # Valeur null
 non_defini: null
 ou_bien: ~
 
 ```
-On peut reprendre ce même exemple en explicitant tout les types (mais on pourrait choisir d'en expliciter qu'une partie):
+On peut reprendre ce même exemple en explicitant tous les types (mais on pourrait choisir d'en expliciter qu'une partie):
 
 ```yaml
 # Exemple de YAML avec des types explicites
