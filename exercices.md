@@ -45,7 +45,7 @@ Vous vous assurez tout au long de la rédaction de vos fichiers que ceux ci soie
 1. **Objectif :** Pratiquez la conversion entre YAML et JSON.
 2. **Consigne :** Convertissez le fichier YAML de l'exercice 2 en JSON.
 
-## Exercice 4 : utilisation desi types, des ancrages et alias en YAML
+## Exercice 4 : utilisation des types, des ancrages et alias en YAML
 
 1. **Objectif :** Apprenez à utiliser les ancrages et les alias dans YAML.
 2. **Consigne :** Le fichier livres.yaml que vous avez produit lors de l'exercice 2 contient de la redondance pour le champ *Auteur*, ainsi que pour le champ Mots-clés. 
