@@ -28,7 +28,7 @@
 
 ## Consignes globales
 
-Vous vous assurez tout au long de la rédaction de vos fichiers que ceux ci soient bien valide avec *yamllint*.
+Vous vous assurez tout au long de la rédaction de vos fichiers que ceux ci soient bien valides avec *yamllint*.
 
 ## Exercice 1 : comprendre les bases de YAML
 
