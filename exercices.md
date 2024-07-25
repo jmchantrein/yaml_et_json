@@ -28,7 +28,8 @@
 
 ## Consignes globales
 
-Vous vous assurez tout au long de la rédaction de vos fichiers que ceux ci soient bien valides avec *yamllint*.
+  - Vos fichiers YAML doivent être validés avec *yamllint*.
+  - Vous installerez `yq` et `yamllint` avec la commande `sudo apt update && sudo apt install yamllint yq`
 
 ## Exercice 1 : comprendre les bases de YAML
 
