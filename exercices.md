@@ -1,6 +1,6 @@
 # Exercices basés sur le cours sur YAML et JSON
 
-## Données à nécéssaires pour les exercices :
+## Données nécéssaires pour les exercices :
 
 - **Livre 1 :**
     - Titre : "1984"
@@ -24,7 +24,7 @@
 - Données à utiliser seulement à partir de l'exercice 4:
   - Aldous Huxley est né en 1894
   - George Orwell est né en 1903
-  - Ils sont tout les deux de nationalité britannique
+  - Ils sont tous les deux de nationalité britannique
 
 ## Consignes globales
 
